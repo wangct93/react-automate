@@ -1,0 +1,1 @@
+import global_2eptovmxbo from '../../src/models/global.js'; export default [global_2eptovmxbo];

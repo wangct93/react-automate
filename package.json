@@ -1,0 +1,32 @@
+{
+  "name": "react-automate",
+  "version": "1.0.0",
+  "description": "react快捷框架",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "wangct-webpack",
+    "server": "node server",
+    "build": "wangct-webpack build",
+    "babel": "node scripts/babel",
+    "publish": "npm pu --registry https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "antd": "^3.20.5",
+    "history": "^4.9.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "wangct-util": "^1.1.5"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "wangct-babel": "^1.1.2",
+    "wangct-react": "^1.0.20",
+    "wangct-server-util": "^1.0.42",
+    "wangct-webpack": "^1.1.8"
+  }
+}
